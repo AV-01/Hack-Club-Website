@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="nav">
+    <ul>
+      <li><a class="active">About Me</a></li>
+      <li><a href="business.html">Business Design</a></li>
+      <li><a href="contact.asp">Experience</a></li>
+      <li><a href="about.asp">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="top-content" style="padding:128px 16px">
+    <h1 class="center white big">Personal Website</h1>
+    <h3 class="center white">Created by Aryavrat "AV" Mishra</h3>
+  </div>
+  <div class="content2">
+    <h2 class="leftSide medium">About Me</h2>
+    <p class="leftSide">Hello! I hope you're doing well. My name is Aryavrat Mishra and I'm a sophmore at Rocklin High
+      School. I enjoy programming and playing tennis on the school team. I also enjoy math and playing in the school
+      band, and also in a jazz band. I play the trombone, and I've been playing it for about 3-4 years. I also have
+      really gotten into chess recently, and my rating is about 1100. Overall, life is pretty good.</p>
+  </div>
+  <div class="grey">
+    <h2 class="center medium">Programming</h2>
+    <p class="center">I really love programming. I even made this website by myself, along with a handful of other
+      simple half-baked projects. I typically enjoy Python, and my front-end development is better than my back-end
+      development. I've joined a few hackathons(never did manage to win any), and I've recently been playing around with
+      AI, altough I don't have any projects to show for it yet.</p>
+  </div>
+  <div class="content2">
+    <h2 class="rightSide medium">Contact</h2>
+    <p>Simple contact form to get in touch with me.</p>
+    <form action="https://getform.io/f/82463d69-978f-42c9-a54f-af3224feb00e" method="POST">
+      <input type="text" name="name" placeholder="Name">
+      <br><input type="email" name="email" placeholder="Email">
+      </br><textarea type="text" name="message" placeholder="Your message"></textarea>
+      <!-- add hidden Honeypot input to prevent spams -->
+      <input type="hidden" name="_gotcha" style="display:none !important">
+      </br><button id="submitButton" type="submit">Send</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
